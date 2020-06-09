@@ -1,0 +1,153 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.1);
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.containerheader {
+	color: rgb(233, 171, 57);
+	text-align: center;
+	text-shadow: 1px 3px 0.1px #000;
+}
+
+.container {
+	padding: 10px;
+	width: 380px;
+	margin: 0 auto;
+}
+
+.header {
+	width: 380px;
+	height: 200px;
+	background-image: url('../img/td3.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border-radius: 1em 1em 0 0;
+	position: relative;
+}
+.clear {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+.clear i {
+	font-size: 30px;
+	color: #fff;
+}
+.clear i:hover {
+	cursor: pointer;
+	text-shadow: 1px 3px 5px #000;
+	transform: rotate(45deg);
+}
+#date {
+	text-shadow: 1px 3px 5px #000;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	color: #fff;
+	font-size: 25px;
+	font-family: 'Metal Mania', cursive;
+}
+
+.content {
+	width: 380px;
+	height: 350px;
+	max-height: 350px;
+	background-color: #fff;
+	overflow: auto;
+}
+.content::-webkit-scrollbar {
+	display: none;
+}
+.content ul {
+	padding: 0;
+	margin: 0;
+	background-color: ;
+}
+.item {
+	width: 380px;
+	height: 45px;
+	min-height: 45px;
+	position: relative;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.item i.co {
+	position: absolute;
+	font-size: 25px;
+	padding-left: 5px;
+	left: 15px;
+	top: 10px;
+}
+.item i.co:hover {
+	cursor: pointer;
+}
+.fa-check-circle {
+	color: #6eb200;
+}
+.item p.text {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+	font-weight: lighter;
+	left: 50px;
+	top: 5px;
+	background-color: #fff;
+	max-width: 285px;
+}
+.lineThrough {
+	text-decoration: line-through;
+	color: red;
+	opacity: 0.5;
+}
+.item i.de {
+	position: absolute;
+	font-size: 25px;
+	right: 15px;
+	top: 10px;
+	color: darkred;
+}
+.item i.de:hover {
+	color: red;
+	cursor: pointer;
+}
+
+.add-to-do {
+	position: relative;
+	border-radius: 0 0 1em 1em;
+	width: 360px;
+	height: 40px;
+	background-color: #fff;
+	padding: 10px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.add-to-do i {
+	position: absolute;
+	font-size: 40px;
+	color: #6eb200;
+}
+
+.add-to-do input {
+	position: absolute;
+	left: 50px;
+	height: 35px;
+	width: 310px;
+	background-color: bisque;
+	border-radius: 2em;
+	border-color: orange;
+	font-size: 20px;
+	padding-left: 10px;
+	outline: 0;
+}
+.add-to-do input::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	color: brown;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+}
